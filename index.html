@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Jackson, desenvolvedor front-end em formação. Veja meus projetos em HTML, CSS e JavaScript.">
   <title>Jackson Dev | Portfólio</title>
 
   <link rel="stylesheet" href="style.css">
@@ -24,84 +25,94 @@
     </nav>
 
     <!-- BOTÃO MOBILE -->
-    <div class="menu-toggle" id="menu-toggle">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
       <i class="fa-solid fa-bars"></i>
-    </div>
+    </button>
   </header>
 
-  <!-- HERO -->
-  <section class="hero" id="inicio">
-    <div class="hero-content">
-      <h1>Desenvolvedor Front-End</h1>
+  <main>
 
-      <p>
-        Criando sites modernos, responsivos e com design profissional.
-      </p>
-    </div>
-  </section>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Desenvolvedor Front-End</h1>
 
-  <!-- PROJETOS -->
-  <section class="projetos" id="projetos">
-    <h2>Meus Projetos</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <img src="sportzone.jpeg" alt="SPORTZONE">
-
-        <div class="card-content">
-          <h3>SPORTZONE ⚽</h3>
-
-          <p>
-            SPORTZONE é um portal esportivo moderno desenvolvido com HTML, CSS e JavaScript, com notícias, resultados e efeitos interativos inspirado em grandes sites de esportes.
-          </p>
-
-          <a href="https://jacksonn111.github.io/Sportzone/" target="_blank">
-            Ver Projeto
-          </a>
-        </div>
+        <p>
+          Criando sites modernos, responsivos e com design profissional.
+        </p>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- PROJETOS -->
+    <section class="projetos" id="projetos">
+      <h2>Meus Projetos</h2>
 
-  <!-- SOBRE -->
-  <section class="sobre" id="sobre">
-    <div class="sobre-box">
-      <h2>Sobre Mim</h2>
+      <div class="cards">
 
-      <p>
-        Meu nome é Jackson, tenho 17 anos e estou aprendendo desenvolvimento web.
-      </p>
+        <div class="card">
+          <img src="sportzone.jpeg" alt="Captura de tela do site SPORTZONE, portal de notícias esportivas">
 
-      <p>
-        Atualmente estudo HTML, CSS e JavaScript enquanto desenvolvo projetos para melhorar minhas habilidades como programador.
-      </p>
+          <div class="card-content">
+            <h3>SPORTZONE ⚽</h3>
 
-      <p>
-        Meu objetivo é evoluir cada vez mais e criar sites modernos, rápidos e profissionais.
-      </p>
-    </div>
-  </section>
+            <p>
+              SPORTZONE é um portal esportivo moderno desenvolvido com HTML, CSS e JavaScript, com notícias, resultados e efeitos interativos inspirado em grandes sites de esportes.
+            </p>
 
-  <!-- CONTATO -->
-  <section class="contato" id="contato">
-    <h2>Contato</h2>
+            <a href="https://jacksonn111.github.io/Sportzone/" target="_blank" rel="noopener noreferrer">
+              Ver Projeto
+            </a>
+          </div>
+        </div>
 
-    <div class="socials">
-      <a href="mailto:jacksondevx@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
+      </div>
+    </section>
 
-      <a href="https://instagram.com/jacksonn.x7" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="sobre-box">
+        <h2>Sobre Mim</h2>
 
-      <a href="https://wa.me/5581988693435" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-      </a>
-    </div>
-  </section>
+        <p>
+          Meu nome é Jackson, tenho 17 anos e estou aprendendo desenvolvimento web.
+        </p>
+
+        <p>
+          Atualmente estudo HTML, CSS e JavaScript enquanto desenvolvo projetos para melhorar minhas habilidades como programador.
+        </p>
+
+        <p>
+          Meu objetivo é evoluir cada vez mais e criar sites modernos, rápidos e profissionais.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+
+      <div class="socials">
+        <a href="mailto:jacksondevx@gmail.com" aria-label="Enviar e-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://instagram.com/jacksonn.x7" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <!--
+          WhatsApp desativado por segurança (o número ficaria público).
+          Se quiser usar de novo, remova as marcas de comentário desta linha
+          e coloque um número só para trabalho:
+
+        <a href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        -->
+      </div>
+    </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer>
